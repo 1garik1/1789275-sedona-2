@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Игорь Савельев](https://up.htmlacademy.ru/htmlcss-individual/2/user/1789275).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
