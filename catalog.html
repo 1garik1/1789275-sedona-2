@@ -7,7 +7,15 @@
   <body>
     <header data-test="header">
       <nav class="navigation">
-        <a href="index.html"><img src="#" alt="главный логотип" /> </a>
+        <a class="navigation-logo" href="index.html" aria-current="page">
+          <img
+            class="navigation-logo-img"
+            src="images/logo.svg"
+            width="140"
+            height="70"
+            alt="Логотип Седона"
+          />
+        </a>
         <ul class="navigation-main">
           <li class="navigation-item">
             <a href="index.html" class="navigation-link navigation-link-pressed"
@@ -28,9 +36,11 @@
             /></a>
             <span class="visually-hidden">поиск</span>
           </li>
-        
+
           <li class="navigation-item">
-            <a href="#" class="navigation-link-like"> <img src="#" alt="кнопка лайка" /></a>
+            <a href="#" class="navigation-link-like">
+              <img src="#" alt="кнопка лайка"
+            /></a>
             <span class="visually-hidden">кнопка избранного</span>
             <span class="navigation-item">12</span>
           </li>
@@ -52,7 +62,11 @@
           </li>
         </ul>
         <h2 class="visually-hidden">Список фильтров по гостиницам</h2>
-        <form class="catalog-filter"  action="https://echo.htmlacademy.ru/" method="get">
+        <form
+          class="catalog-filter"
+          action="https://echo.htmlacademy.ru/"
+          method="get"
+        >
           <fieldset class="catalog-filter-group catalog-filter-infrastructure">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
@@ -175,16 +189,19 @@
           <ul class="view-buttons">
             <li class="view-buttons-item">
               <a class="view-button-tile" href="#">
+                <img src="images/catalog/tile.svg" width="16" height="14" alt="Показать плиткой">
                 <span class="visually-hidden">Показать плиткой</span>
               </a>
             </li>
             <li class="view-buttons-item">
               <a class="view-button-card" href="#">
+                <img src="images/catalog/cards.svg" width="16" height="14" alt="Показать карточками">
                 <span class="visually-hidden">Показать карточками</span>
               </a>
             </li>
             <li class="view-buttons-item">
               <a class="view-button-list" href="#">
+                <img src="images/catalog/list.svg" width="16" height="14" alt="оказать списком">
                 <span class="visually-hidden">Показать списком</span>
               </a>
             </li>
@@ -193,7 +210,7 @@
         <ul class="hotels-list">
           <li class="hotels-card">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-image" src="#" alt="" />
+              <img class="hotels-card-image" src="images/catalog/hotel-1.png" width="300" height="212" alt="звездное небо между скал" />
               <h3 class="hotels-card-title">Amara Resort & Spa</h3>
             </a>
             <div class="hotels-card-description">
@@ -213,7 +230,7 @@
           </li>
           <li class="hotels-card">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-image" src="#" alt="" />
+              <img class="hotels-card-image" src="images/catalog/hotel-2.png" width="300" height="212" alt="вид на скалы и радугу" />
               <h3 class="hotels-card-title">Villas at Poco Diablo</h3>
             </a>
             <div class="hotels-card-description">
@@ -233,7 +250,7 @@
           </li>
           <li class="hotels-card">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-image" src="#" alt="" />
+              <img class="hotels-card-image" src="images/catalog/hotel-3.png" width="300" height="212" alt="скалы в лесостепи" />
               <h3 class="hotels-card-title">Desert Quail Inn</h3>
             </a>
             <div class="hotels-card-description">
@@ -253,7 +270,7 @@
           </li>
           <li class="hotels-card">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-image" src="#" alt="" />
+              <img class="hotels-card-image" src="images/catalog/hotel-4.png" width="300" height="212" alt="скалы на фоне звездного неба" />
               <h3 class="hotels-card-title">GreenTree Inn</h3>
             </a>
             <div class="hotels-card-description">
@@ -293,7 +310,7 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">...</a>
           </li>
-              <li class="pagination-item">
+          <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
           <li class="pagination-item">
@@ -305,28 +322,61 @@
       </section>
       <section class="subscribe" data-test="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-        <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+        <p class="subscribe-description">
+          Только полезная информация и никакого спама, честное бойскаутское!
+        </p>
+        <form
+          class="subscribe-form"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
           <label class="visually-hidden" for="user-email">Ваш email</label>
-          <input type="email" class="subscribe-field" placeholder="Ваш e-mail" name="user-email" id="user-email" required/>
-          <button class="button button-subscribe" type="button">ПОДПИСАТЬСЯ</button>
+          <input
+            type="email"
+            class="subscribe-field"
+            placeholder="Ваш e-mail"
+            name="user-email"
+            id="user-email"
+            required
+          />
+          <button class="button button-subscribe" type="button">
+            ПОДПИСАТЬСЯ
+          </button>
         </form>
       </section>
     </main>
     <footer class="page-footer" data-test="footer">
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a href="" class="footer-social-link">
+          <a href="#" class="footer-social-link">
+            <img
+              src="images/social-vk.svg"
+              width="47"
+              height="40"
+              alt="ссылка ВКонтакте"
+            />
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a href="" class="footer-social-link">
+          <a href="#" class="footer-social-link">
+            <img
+              src="images/social-telegram.svg"
+              width="47"
+              height="40"
+              alt="ссылка Телеграм"
+            />
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a href="" class="footer-social-link">
+          <a href="#" class="footer-social-link">
+            <img
+              src="images/social-youtube.svg"
+              width="47"
+              height="40"
+              alt="ссылка YouTube"
+            />
             <span class="visually-hidden">YouTube</span>
           </a>
         </li>
@@ -335,7 +385,7 @@
       <a class="footer-copyright" href="https://htmlacademy.ru/">
         <img
           class="htmlacademy-logo"
-          src="#"
+          src="images/logo_htmlacademy.svg"
           width="115"
           height="33"
           alt="Логотип html academy"

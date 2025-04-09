@@ -7,7 +7,15 @@
   <body>
     <header data-test="header">
       <nav class="navigation">
-        <img src="#" alt="главный логотип" />
+        <a class="navigation-logo" href="index.html" aria-current="page">
+          <img
+            class="navigation-logo-img"
+            src="images/logo.svg"
+            width="140"
+            height="70"
+            alt="Логотип Седона"
+          />
+        </a>
         <ul class="navigation-main">
           <li class="navigation-item">
             <a href="#" class="navigation-link navigation-link-pressed"
@@ -24,14 +32,14 @@
         <ul class="navigation-main navigation-function">
           <li class="navigation-item">
             <a href="#" class="navigation-link-search">
-              <img src="#" alt="поиск"
+              <img src="images/search.svg" alt="поиск"
             /></a>
             <span class="visually-hidden">поиск</span>
           </li>
-          
+
           <li class="navigation-item">
             <a href="#" class="navigation-link-like">
-              <img src="#" alt="кнопка лайка"
+              <img src="images/heart.svg" alt="кнопка лайка"
             /></a>
             <span class="visually-hidden">кнопка избранного</span>
             <span class="navigation-item">12</span>
@@ -70,9 +78,12 @@
             <p class="reasons-why-description">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
-          </div>
-          <div class="reasons-why-image reasons-why-image-town">
-            <img src="#" alt="картинка городка" />
+            <img
+              src="images/sedonacity.jpg"
+              width="800"
+              height="384"
+              alt="картинка городка Седона"
+            />
           </div>
           <div class="reasons-why-card">
             <h3 class="reasons-why-title">Небольшая площадь</h3>
@@ -94,9 +105,12 @@
             <p class="reasons-why-description">
               Большинство едет в Гранд Каньон и толпится там
             </p>
-          </div>
-          <div class="reasons-why-image reasons-why-image-canyon">
-            <img src="#" alt="картинка каньона" />
+            <img
+              src="images/devilsBridge.jpg"
+              width="800"
+              height="384"
+              alt="картинка каньона"
+            />
           </div>
           <div class="reasons-why-card">
             <h3 class="reasons-why-title">Там есть мост дьявола</h3>
@@ -118,21 +132,36 @@
         </div>
         <div class="features-elements">
           <div class="features-elements-card">
-            <img src="#" alt="какртинка дома" />
+            <img
+              src="images/houseIcon.svg"
+              width="75"
+              height="72"
+              alt="какртинка дома"
+            />
             <h3 class="features-elements-title">Жилье</h3>
             <p class="features-elements-description">
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
           </div>
           <div class="features-elements-card">
-            <img src="#" alt="картинка бургера" />
+            <img
+              src="images/burgerIcon.svg"
+              width="75"
+              height="72"
+              alt="картинка бургера"
+            />
             <h3 class="features-elements-title">Еда</h3>
             <p class="features-elements-description">
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </div>
           <div class="features-elements-card">
-            <img src="#" alt="картинка подарка" />
+            <img
+              src="images/giftIcon.svg"
+              width="75"
+              height="72"
+              alt="картинка подарка"
+            />
             <h3 class="features-elements-title">Сувениры</h3>
             <p class="features-elements-description">
               Не только китайского, но и настоящего местного производства!
@@ -142,11 +171,10 @@
       </section>
       <section class="interested" data-test="search">
         <div class="preface">
-          <h2 class="preface-title">
-            Заинтересовались?
-          </h2>
+          <h2 class="preface-title">Заинтересовались?</h2>
           <p class="preface-description">
-            Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+            Укажите предполагаемые даты поездки, и мы покажем вам лучшие
+            предложения гостиниц в Седоне
           </p>
           <button class="button preface-button">
             поиск гостиницы в седоне
@@ -167,17 +195,35 @@
     <footer class="page-footer" data-test="footer">
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a href="" class="footer-social-link">
+          <a href="#" class="footer-social-link">
+            <img
+              src="images/social-vk.svg"
+              width="47"
+              height="40"
+              alt="ссылка ВКонтакте"
+            />
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a href="" class="footer-social-link">
+          <a href="#" class="footer-social-link">
+            <img
+              src="images/social-telegram.svg"
+              width="47"
+              height="40"
+              alt="ссылка Телеграм"
+            />
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a href="" class="footer-social-link">
+          <a href="#" class="footer-social-link">
+            <img
+              src="images/social-youtube.svg"
+              width="47"
+              height="40"
+              alt="ссылка YouTube"
+            />
             <span class="visually-hidden">YouTube</span>
           </a>
         </li>
@@ -186,7 +232,7 @@
       <a class="footer-copyright" href="https://htmlacademy.ru/">
         <img
           class="htmlacademy-logo"
-          src="#"
+          src="images/logo_htmlacademy.svg"
           width="115"
           height="33"
           alt="Логотип html academy"
