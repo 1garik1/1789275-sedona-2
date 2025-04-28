@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <header data-test="header">
@@ -54,7 +55,13 @@
       <h1 class="visually-hidden">Сайт поиска гостиниц в Седона</h1>
       <section class="preview-screen" data-test="hero">
         <div class="preview-screen-welcome">
-          <img src="images/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону">
+          <img
+            src="images/welcome.svg"
+            width="458"
+            height="352"
+            alt="Добро пожаловать в Седону"
+          />
+        </div>
       </section>
       <section class="reasons" data-test="advantages">
         <div class="preface">
@@ -67,51 +74,46 @@
         </div>
         <div class="reasons-why">
           <div class="reasons-why-card">
-            <h3 class="reasons-why-title">Настоящий городок</h3>
-            <div class="reasons-why-stripe"></div>
-            <p class="reasons-why-description">
-              Седона — не аттракцион для туристов, там течёт своя жизнь
-            </p>
-            <img
-              src="images/sedonacity.jpg"
-              width="800"
-              height="384"
-              alt="картинка городка Седона"
-            />
+            <div>
+              <h3 class="reasons-why-title">Настоящий городок</h3>
+              <div class="reasons-why-stripe"></div>
+              <p class="reasons-why-description">
+                Седона — не аттракцион для туристов, там течёт своя жизнь
+              </p>
+            </div>
+            <div class="reasons-why-image reasons-why-image-sedonacity"></div>
           </div>
-          <div class="reasons-why-card">
+          <div class="reasons-why-card reasons-why-card-transparent">
             <h3 class="reasons-why-title">Небольшая площадь</h3>
             <div class="reasons-why-stripe"></div>
             <p class="reasons-why-description">
               Все достопримечательности находятся очень близко
             </p>
           </div>
-          <div class="reasons-why-card">
+          <div class="reasons-why-card reasons-why-card-semitransparent">
             <h3 class="reasons-why-title">Красивая дорога</h3>
             <div class="reasons-why-stripe"></div>
             <p class="reasons-why-description">
               Ехать в Седону из Лас-Вегаса совсем не скучно!
             </p>
           </div>
-          <div class="reasons-why-card">
+          <div class="reasons-why-card reasons-why-card-transparent">
             <h3 class="reasons-why-title">Мало туристов</h3>
             <div class="reasons-why-stripe"></div>
             <p class="reasons-why-description">
               Большинство едет в Гранд Каньон и толпится там
             </p>
-            <img
-              src="images/devilsBridge.jpg"
-              width="800"
-              height="384"
-              alt="картинка каньона"
-            />
           </div>
           <div class="reasons-why-card">
-            <h3 class="reasons-why-title">Там есть мост дьявола</h3>
-            <div class="reasons-why-stripe"></div>
-            <p class="reasons-why-description">
-              Да, по нему можно пройти! Если вы осмелитесь, разумеется
-            </p>
+            <div>
+              <h3 class="reasons-why-title">Там есть мост дьявола</h3>
+              <div class="reasons-why-stripe"></div>
+              <p class="reasons-why-description">
+                Да, по нему можно пройти! Если вы осмелитесь, разумеется
+              </p>
+            </div>
+
+            <div class="reasons-why-image reasons-why-image-devilbridge"></div>
           </div>
         </div>
       </section>
