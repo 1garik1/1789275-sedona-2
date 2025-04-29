@@ -23,10 +23,59 @@ body {
   background-color: #fff;
   color: #000;
 }
-
-.navigation-main {
-  list-style: none;
+.navigation-link-count {
+  background-color: #7db54f;
+  color: #fff;
+  font-size: 10px;
+  line-height: 10px;
 }
+.button {
+  font-weight: 700;
+  color: #fff;
+  background-color: #756157;
+  text-transform: uppercase;
+  border: none;
+}
+.header-button {
+  font-size: 16px;
+  line-height: 20px;
+}
+.preface-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+.submit-button {
+  background-color: #82b3d3;
+  font-size: 20px;
+  line-height: 36px;
+}
+.apply-button {
+  background-color: #82b3d3;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reset-button {
+  background: transparent;
+}
+.detailed-button {
+  font-size: 16px;
+  line-height: 20px;
+}
+.button-favorite {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82b3d3;
+}
+.button-favorite-selected {
+  background-color: #7db54f;
+}
+.subscribe-button {
+  background-color: #82b3d3;
+}
+.visually-hidden {
+  display: none;
+}
+
 .navigation-link {
   text-decoration: none;
   font-weight: 700;
@@ -50,6 +99,7 @@ body {
   text-transform: uppercase;
 }
 .preface-description {
+  font-size: 22px;
   line-height: 26px;
   color: inherit;
 }
@@ -73,19 +123,31 @@ body {
 }
 .reasons-why-image {
   width: 800px;
-  height: 250px;
+  height: 385px;
 }
 .reasons-why-image-sedonacity {
   background-image: url("../images/sedonacity.jpg");
 }
 .reasons-why-image-devilbridge {
-  background-image: url("../images/sedonacity.jpg");
+  background-image: url("../images/devilsBridge.jpg");
 }
-.reasons-why-title {
+.reasons-why-title,
+.features-elements-title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  text-align: center;
+}
+.reasons-why-description,
+.features-elements-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.features-elements-card:nth-child(odd) {
+  background-color: #83b3d31f;
 }
 .inner-header {
   background-image: url("../images/catalog/filter.jpg");
@@ -124,10 +186,10 @@ body {
 }
 .hotels-card-link {
   text-decoration: none;
-  color: #000;  
+  color: #000;
 }
 .hotels-card-description {
-  color:#000;
+  color: #000;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -135,7 +197,17 @@ body {
 
 .pagination-link {
   color: #fff;
+  background-color: #82B3D3;
+  text-decoration: none;
 }
 .pagination-current {
   color: #000;
+  background-color: #F2F2F2;
+}
+.pagination-ellipsis {
+  color: #000;
+  background: transparent;
+}
+.select-control {
+  color: inherit;
 }
