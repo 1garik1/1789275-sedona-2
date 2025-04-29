@@ -56,6 +56,8 @@ body {
 }
 .reset-button {
   background: transparent;
+  font-size: 16px;
+  line-height: 20px;
 }
 .detailed-button {
   font-size: 16px;
@@ -146,7 +148,7 @@ body {
   line-height: 21px;
   text-align: center;
 }
-.features-elements-card:nth-child(odd) {
+.features-elements-card {
   background-color: #83b3d31f;
 }
 .inner-header {
@@ -197,12 +199,12 @@ body {
 
 .pagination-link {
   color: #fff;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   text-decoration: none;
 }
 .pagination-current {
   color: #000;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 .pagination-ellipsis {
   color: #000;
@@ -210,4 +212,9 @@ body {
 }
 .select-control {
   color: inherit;
+}
+.subscribe {
+color: #fff;
+background: url('../images/subscribe.jpg') no-repeat;
+background-size: cover;
 }
